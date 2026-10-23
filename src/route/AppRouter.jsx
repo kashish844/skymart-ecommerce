@@ -9,7 +9,7 @@ import Cart from '../pages/Cart'
 import ProductDetail from '../pages/ProductDetail'
 
 
-const Approuter = () => {
+const AppRouter = () => {
   return (
     <div>
         <Routes>
@@ -25,4 +25,4 @@ const Approuter = () => {
   )
 }
 
-export default Approuter
+export default AppRouter
