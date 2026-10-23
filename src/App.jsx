@@ -1,20 +1,11 @@
-import React, { useState } from 'react'
-
-import FrontPage from './Components/FrontPage';
-import Approuter from './route/Approuter';
-import Register from './Components/Register';
-import AppRouter from './route/Approuter';
-
+import AppRouter from './route/AppRouter';
 
 const App = () => {
-  
-
   return (
     <div>
-      <AppRouter/>
+      <AppRouter />
     </div>
+  );
+};
 
-  )
-}
-
-export default App
+export default App;
